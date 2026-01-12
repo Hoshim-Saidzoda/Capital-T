@@ -17,7 +17,7 @@ const Navbar = () => {
   const dropdownRef = useRef<HTMLDivElement>(null);
 
   const navLinks = [
-    { href: "/" },
+    
     { href: "/about", label: t("about") },
     { href: "/coverage", label: t("coverage") },
     { href: "/infrastructure", label: t("infrastructure") },

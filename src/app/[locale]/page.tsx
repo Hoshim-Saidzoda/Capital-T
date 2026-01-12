@@ -1,9 +1,9 @@
-import Navbar from "@/src/components/Navbar";
+ import About from "../[locale]/about/page";
  export default function Home() {
   return (
     <div className="">
 
-      <Navbar />
+      <About />
     </div>
   );
 }
